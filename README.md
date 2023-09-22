@@ -1,4 +1,4 @@
-I scored one of these on eBay for $20 and have been playing around a bit and discovered it's the same chip used in the [AtariVox+ Speech Synthesizer](https://www.atariage.com/store/index.php?l=product_detail&p=1045).
+I scored a Magnevation SpeakJet Activity Center on eBay for $20 and have been playing around a bit and discovered it's the same chip used in the [AtariVox+ Speech Synthesizer](https://www.atariage.com/store/index.php?l=product_detail&p=1045).
 
 ![](/images/SpeakJetActivityCenter.jpg)
 
