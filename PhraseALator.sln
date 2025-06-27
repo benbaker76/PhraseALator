@@ -1,33 +1,22 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1082
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhraseALator", "PhraseALator.csproj", "{D8EA3F04-2C59-4367-B599-8753C984BF8B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhraseALator.csproj", "PhraseALator.csproj", "{13B02F8C-DDEE-4521-8204-36D3D23E8BBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhraseALator", "PhraseALator\PhraseALator.csproj", "{99C9216B-3E38-7A06-2441-C683A99037A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Mixed Platforms = Debug|Mixed Platforms
-		Debug|x86 = Debug|x86
-		Release|Mixed Platforms = Release|Mixed Platforms
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B}.Debug|x86.ActiveCfg = Debug|x86
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B}.Debug|x86.Build.0 = Debug|x86
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B}.Release|Mixed Platforms.Build.0 = Release|x86
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B}.Release|x86.ActiveCfg = Release|x86
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B}.Release|x86.Build.0 = Release|x86
+		{99C9216B-3E38-7A06-2441-C683A99037A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C9216B-3E38-7A06-2441-C683A99037A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C9216B-3E38-7A06-2441-C683A99037A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C9216B-3E38-7A06-2441-C683A99037A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D8EA3F04-2C59-4367-B599-8753C984BF8B} = {13B02F8C-DDEE-4521-8204-36D3D23E8BBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34ADED4F-6E98-4EFE-AC5D-215A3AFB5F06}
