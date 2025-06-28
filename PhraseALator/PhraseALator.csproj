@@ -1,25 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
 		<EnableWindowsTargeting>true</EnableWindowsTargeting>
-  </PropertyGroup>
+	</PropertyGroup>
 
 	<ItemGroup>
+		<Content Include="Face2A.ico" />
 		<Content Include="../README.md" Pack="true" PackagePath="\" />
 		<None Include="../LICENSE" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Properties\" />
+		<Folder Include="Properties\" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="System.IO.Ports" Version="9.0.6" />
+		<PackageReference Include="System.IO.Ports" Version="9.0.6" />
 	</ItemGroup>
 
 	<PropertyGroup>
@@ -27,6 +28,7 @@
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<FileVersion>1.0.0.0</FileVersion>
 		<PackageVersion>1.0.0</PackageVersion>
+		<ApplicationIcon>Face2A.ico</ApplicationIcon>
 	</PropertyGroup>
 
 </Project>
